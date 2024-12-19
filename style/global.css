@@ -26,10 +26,6 @@
 
   /* NOT USED  */
 
-  --h1: 800 24px/135% var(--font-family);
-  --h2: 800 16px/140% var(--font-family);
-  --h3: 800 14px/140% var(--font-family);
-  --text-span: 600 14px/145% var(--font-family); 
 
   --brand-light: #F67841;
   --brand-mid: #F3541C;
@@ -45,19 +41,18 @@
 
 
 
-
-
 body {
+  overflow: hidden;
   font: var(--text);
-  color:  var(--text-color-primary);
-  background-color:  var(--bg-color);
+  color: var(--text-hi);
+
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+h1, h2 {
+  color: var(--text-primary);
 }
 
-h1, h2, h3 {
-  font: inherit;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
