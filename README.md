@@ -1,2 +1,2 @@
-# template-html
-repository use for initial create tree archives for development html
+# Registration Forms
+Project created for developing skills using HTML forms
