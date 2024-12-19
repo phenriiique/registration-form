@@ -1,6 +1,7 @@
 @import url(global.css);
-@import url(nav.css);
-@import url(header.css);
+/* @import url(nav.css); */
+/* @import url(header.css); */
 @import url(main.css);
-@import url(footer.css);
+/* @import url(footer.css); */
 @import url(layout.css);
+@import url(forms.css);
