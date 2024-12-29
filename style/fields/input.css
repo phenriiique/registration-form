@@ -3,7 +3,9 @@ input, textarea, select {
   appearance: none;
   width: 100%;
   border-radius: .5rem;
-  border: 1px solid var(--stroke-default);
+
+  border: 2px solid transparent;
+  outline: 1px solid var(--stroke-default);
 
   padding: .75rem 1rem;
   font: var(--text);
